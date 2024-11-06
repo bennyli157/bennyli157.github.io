@@ -1,0 +1,31 @@
+.container {
+	width: 800px;
+	background: #fff;
+	margin: 0 auto;
+	padding: 10px;
+}
+ul {
+	margin:0px;
+	padding:0px;
+}
+
+ul li{
+	display: inline;
+	margin: 3px;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* fade */
+ul li a img {
+	opacity: 0.6;
+	transition: all .5s ease-out;
+}
+ul li a:hover img {
+	opacity: 1;
+}
+/*https://lokeshdhakar.com/projects/lightbox2/*/
+
